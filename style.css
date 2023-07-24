@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat:wght@100&display=swap");
+
+/*
+body{
+   background-color: bisque;
+}
+
+.list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   row-gap: 30px;
+}
+.block   {
+   background-color: rgb(132, 214, 69);
+   width: 250px;
+   text-align: center;
+   padding: 20px 10px 10px;
+   border-radius: 20px;
+}
+.image{
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   margin-bottom: 20px;
+}
+
+.text{
+   padding-left: 10px;
+   text-align: start;
+}
+
+p{
+   font-family: 'Montserrat';
+   font-weight: 700;
+} */
+
+body {
+  background-color: #160128;
+}
+
+.list {
+  display: flex;
+  overflow-x: scroll;
+  gap: 30px;
+  margin-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list::-webkit-scrollbar {
+  height: 7px;
+  background-color: 160128;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: rgba(168, 199, 32);
+  border-radius: 3px;
+}
+
+.block {
+  border: 2px solid rgba(168, 199, 32, 0.612);
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img {
+  height: 340px;
+}
+
+.text{
+   padding-left: 10px;
+}
+
+.name,
+.year {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
