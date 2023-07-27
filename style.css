@@ -39,6 +39,10 @@ body {
   background-color: #160128;
 }
 
+a{
+  text-decoration: none;
+}
+
 .list {
   display: flex;
   overflow-x: scroll;
@@ -60,6 +64,7 @@ body {
 
 .block {
   border: 2px solid rgba(168, 199, 32, 0.612);
+  background-color: rgb(168, 199, 32);
   margin-bottom: 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -69,13 +74,19 @@ body {
   height: 340px;
 }
 
-.text{
-   padding-left: 10px;
+.text {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-.name,
+.name{
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
 .year {
-  color: #fff;
-  font-family: 'Montserrat';
+  color: black;
+  font-family: "Montserrat";
   font-weight: 600;
 }

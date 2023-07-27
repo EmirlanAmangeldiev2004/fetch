@@ -30,12 +30,11 @@ fetch(API)
   .then((data) => data.json())
   .then((unp) => {
    unp.Search.forEach((el)=>{
-      console.log(el);
       list.innerHTML += `
          <div class = 'block'>
             <img class = 'img' src = '${el.Poster}'>
             <div class = 'text'>
-               <p class = 'name'>title: ${el.Title}</p>
+               <a class = 'name' href = '#'>title: ${el.Title}</a>
                <p class = 'year'>year: ${el.Year}</p>
             </div>
          </div>
